@@ -1,1 +1,1 @@
-print('?git status')
+print('?')
