@@ -118,7 +118,7 @@ plt.grid(True, which="both", ls="--")
 plt.tight_layout()
 plt.show()
 
-komentar = " \n U tablicama 1 vidljivo je da manji h i centralna derivacija vraćaju najprecizniji rezultat.\n" \
+komentar = " \nU tablicama 1 vidljivo je da manji h i centralna derivacija vraćaju najprecizniji rezultat.\n" \
 "To nije iznenađujuće, obzirom da centralna derivacija koristi informacije s obje strane točke, \n" \
 "što rezultira boljom aproksimacijom. U tablicama 2, pet točaka daje najbolju preciznost zbog \n" \
 "šireg uzorka podataka koji koristi za izračun derivacije.\n" \
