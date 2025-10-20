@@ -137,7 +137,7 @@ Tablica 3 za x = 10
 0.000010      22026.465795          22026.433726  0.032069
 0.000001      22026.465795          22020.685719  5.780075
  
- U tablicama 1 vidljivo je da manji h i centralna derivacija vraćaju najprecizniji rezultat.
+U tablicama 1 vidljivo je da manji h i centralna derivacija vraćaju najprecizniji rezultat.
 To nije iznenađujuće, obzirom da centralna derivacija koristi informacije s obje strane točke, 
 što rezultira boljom aproksimacijom. U tablicama 2, pet točaka daje najbolju preciznost zbog 
 šireg uzorka podataka koji koristi za izračun derivacije.
