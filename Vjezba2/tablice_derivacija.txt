@@ -1,0 +1,148 @@
+Prva derivacija f(x) = e^x
+
+Tablica 1 za x = 0.5
+       h  Točna vrijednost  Unaprijed  Unatrag  Centralna
+0.100000          1.648721   1.733975 1.568966   1.651471
+0.000100          1.648721   1.648804 1.648639   1.648721
+0.000001          1.648721   1.648722 1.648720   1.648721
+
+Tablica 1 za x = 1.5
+       h  Točna vrijednost  Unaprijed  Unatrag  Centralna
+0.100000          4.481689   4.713434 4.264891   4.489162
+0.000100          4.481689   4.481913 4.481465   4.481689
+0.000001          4.481689   4.481691 4.481687   4.481689
+
+Tablica 1 za x = 2.5
+       h  Točna vrijednost  Unaprijed   Unatrag  Centralna
+0.100000         12.182494  12.812441 11.593176  12.202808
+0.000100         12.182494  12.183103 12.181885  12.182494
+0.000001         12.182494  12.182500 12.182488  12.182494
+
+Tablica 2 za x = 0.5
+       h  Točna vrijednost  Dvije točke  Tri točke  Pet točki
+0.100000          1.648721     1.651471   1.651471   1.648716
+0.000100          1.648721     1.648721   1.648721   1.648721
+0.000001          1.648721     1.648721   1.648721   1.648721
+
+Tablica 2 za x = 1.5
+       h  Točna vrijednost  Dvije točke  Tri točke  Pet točki
+0.100000          4.481689     4.489162   4.489162   4.481674
+0.000100          4.481689     4.481689   4.481689   4.481689
+0.000001          4.481689     4.481689   4.481689   4.481689
+
+Tablica 2 za x = 2.5
+       h  Točna vrijednost  Dvije točke  Tri točke  Pet točki
+0.100000         12.182494    12.202808  12.202808  12.182453
+0.000100         12.182494    12.182494  12.182494  12.182494
+0.000001         12.182494    12.182494  12.182494  12.182494
+
+Druga derivacija f(x) = e^x
+
+Tablica 3 za x = 0
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000               1.0              1.000834 8.336112e-04
+0.010000               1.0              1.000008 8.333361e-06
+0.001000               1.0              1.000000 8.340650e-08
+0.000100               1.0              1.000000 5.024759e-09
+0.000010               1.0              0.999999 1.027483e-06
+0.000001               1.0              0.999978 2.212172e-05
+
+Tablica 3 za x = 1
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000          2.718282              2.720548 2.265990e-03
+0.010000          2.718282              2.718304 2.265242e-05
+0.001000          2.718282              2.718282 2.265441e-07
+0.000100          2.718282              2.718282 3.780617e-08
+0.000010          2.718282              2.718288 5.988602e-06
+0.000001          2.718282              2.718270 1.177497e-05
+
+Tablica 3 za x = 2
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000          7.389056              7.395216 6.159600e-03
+0.010000          7.389056              7.389118 6.157566e-05
+0.001000          7.389056              7.389057 6.160042e-07
+0.000100          7.389056              7.389056 1.124070e-07
+0.000010          7.389056              7.389049 6.726567e-06
+0.000001          7.389056              7.390533 1.476531e-03
+
+Tablica 3 za x = 3
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000         20.085537             20.102280 1.674353e-02
+0.010000         20.085537             20.085704 1.673800e-04
+0.001000         20.085537             20.085539 1.674482e-06
+0.000100         20.085537             20.085537 1.338494e-07
+0.000010         20.085537             20.085551 1.407701e-05
+0.000001         20.085537             20.083490 2.046497e-03
+
+Tablica 3 za x = 4
+       h  Točna vrijednost  Numerička vrijednost   Greška
+0.100000          54.59815             54.643664 0.045514
+0.010000          54.59815             54.598605 0.000455
+0.001000          54.59815             54.598155 0.000005
+0.000100          54.59815             54.598148 0.000002
+0.000010          54.59815             54.597962 0.000188
+0.000001          54.59815             54.605209 0.007059
+
+Tablica 3 za x = 5
+       h  Točna vrijednost  Numerička vrijednost   Greška
+0.100000        148.413159            148.536878 0.123719
+0.010000        148.413159            148.414396 0.001237
+0.001000        148.413159            148.413171 0.000012
+0.000100        148.413159            148.413162 0.000002
+0.000010        148.413159            148.413335 0.000176
+0.000001        148.413159            148.446588 0.033429
+
+Tablica 3 za x = 6
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000        403.428793            403.765096 3.363027e-01
+0.010000        403.428793            403.432155 3.361918e-03
+0.001000        403.428793            403.428827 3.366276e-05
+0.000100        403.428793            403.428794 5.230459e-07
+0.000010        403.428793            403.428544 2.495880e-04
+0.000001        403.428793            403.474587 4.579358e-02
+
+Tablica 3 za x = 7
+       h  Točna vrijednost  Numerička vrijednost   Greška
+0.100000       1096.633158           1097.547324 0.914166
+0.010000       1096.633158           1096.642297 0.009139
+0.001000       1096.633158           1096.633250 0.000092
+0.000100       1096.633158           1096.633173 0.000014
+0.000010       1096.633158           1096.634605 0.001447
+0.000001       1096.633158           1096.850610 0.217452
+
+Tablica 3 za x = 8
+       h  Točna vrijednost  Numerička vrijednost   Greška
+0.100000       2980.957987           2983.442947 2.484960
+0.010000       2980.957987           2980.982828 0.024841
+0.001000       2980.957987           2980.958233 0.000246
+0.000100       2980.957987           2980.957970 0.000017
+0.000010       2980.957987           2980.959835 0.001847
+0.000001       2980.957987           2978.140401 2.817586
+
+Tablica 3 za x = 9
+       h  Točna vrijednost  Numerička vrijednost       Greška
+0.100000       8103.083928           8109.838749 6.754821e+00
+0.010000       8103.083928           8103.151453 6.752592e-02
+0.001000       8103.083928           8103.084603 6.755600e-04
+0.000100       8103.083928           8103.083928 7.149047e-07
+0.000010       8103.083928           8103.079381 4.546759e-03
+0.000001       8103.083928           8102.688298 3.956295e-01
+
+Tablica 3 za x = 10
+       h  Točna vrijednost  Numerička vrijednost    Greška
+0.100000      22026.465795          22044.827303 18.361508
+0.010000      22026.465795          22026.649349  0.183554
+0.001000      22026.465795          22026.467628  0.001833
+0.000100      22026.465795          22026.465376  0.000419
+0.000010      22026.465795          22026.433726  0.032069
+0.000001      22026.465795          22020.685719  5.780075
+ 
+ U tablicama 1 vidljivo je da manji h i centralna derivacija vraćaju najprecizniji rezultat.
+To nije iznenađujuće, obzirom da centralna derivacija koristi informacije s obje strane točke, 
+što rezultira boljom aproksimacijom. U tablicama 2, pet točaka daje najbolju preciznost zbog 
+šireg uzorka podataka koji koristi za izračun derivacije.
+Graf greške za drugu derivaciju pokazuje da se greška smanjuje kako h postaje manje, 
+što je očekivano jer manji koraci vode do točnijih aproksimacija derivacija.
+Iznenađujuće je što greška ne opada linearno s smanjenjem h, već ima minimumalnu vrijednost 
+nakon čega počinje rasti zbog numeričkih pogrešaka povezanim s ograničenom preciznošću računala. 
+Da naš kompjuter ima beskonačnu preciznost, greška bi se nastavila smanjivati s manjim h.
