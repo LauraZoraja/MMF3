@@ -40,7 +40,7 @@ def bisekcija(a, b, tol=10**(-12), Nmax=200):
         output.append({"iteracija": i, "c": c, "f(c)": fc})
         if abs(fc) < tol or (b - a)*0.5 < tol:
             return c, i, pd.DataFrame(output)
-        if fa * fc < 0:
+        elif fa * fc < 0:
             b, fb = c, fc
         else:
             a, fa = c, fc
@@ -62,7 +62,7 @@ def newton(x0, tol=10**(-12), Nmax=100):
         x = xnew
     return x, Nmax, pd.DataFrame(output)
 
-#Izvršavanje
+#Pozivanje
 t_bis, iter_bis, df_bis = bisekcija(2.0, 2.2, tol=10**(-12))
 t_newt, iter_newt, df_newt = newton(2.1, tol=10**(-12))
 
