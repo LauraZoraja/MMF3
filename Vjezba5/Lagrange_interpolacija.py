@@ -117,7 +117,9 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# Ucitaj JDW podatke
+# Zadatci 5.2 i 5.3
+
+# Ucitaj podatke
 raw = np.loadtxt("V(H-H).txt")
 r_ao = raw[:, 0]
 V_hartree = raw[:, 1]
@@ -167,8 +169,8 @@ for i in dyp_2:
 # Graf 2
 plt.figure(figsize=(6.5, 4.0))
 plt.scatter(r_A, V_K, color="black", label="(ri, Vi)")
-plt.plot(x_vals_2, yL_2, "o", label="Lagrange", color="purple", markevery=4)
-plt.errorbar(x_vals_2, yp_2, yerr=dyp_22, fmt="s", label="Neville", color="teal", ecolor="teal", capsize=1, linewidth = 1, markevery=8)
+plt.plot(x_vals_2, yL_2, "o", label="Lagrange", color="purple")
+plt.errorbar(x_vals_2, yp_2, yerr=dyp_22, fmt="s", label="Neville", color="teal", ecolor="teal", capsize=1, linewidth = 1, markevery=2)
 plt.xlabel("r / Å")
 plt.ylabel("V / K")
 plt.title("Graf 2")
@@ -205,8 +207,8 @@ df_inter.to_csv("V(H-H)_inter.txt", sep="\t", index=False, float_format="%.6f")
 # Graf 3
 plt.figure(figsize=(6.5, 4.0))
 plt.scatter(r_A, V_K, color="black", label="(ri, Vi)")
-plt.plot(x_vals_3, yL_3, "o", label="Lagrange", color="purple", markevery=4)
-plt.errorbar(x_vals_3, yp_3, yerr=dyp_32, fmt="s", label="Neville", color="teal", ecolor="teal", capsize=1, linewidth = 1, markevery=8)
+plt.plot(x_vals_3, yL_3, "o", label="Lagrange", color="purple")
+plt.errorbar(x_vals_3, yp_3, yerr=dyp_32, fmt="s", label="Neville", color="teal", ecolor="teal", capsize=1, linewidth = 1, markevery=2)
 plt.plot(x_vals_3, ys_3, label="CubicSpline", color="pink")
 plt.xlabel("r / Å")
 plt.ylabel("V / K")
