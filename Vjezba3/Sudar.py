@@ -39,7 +39,7 @@ def bisekcija(a, b, tol=10**(-12), Nmax=200):
         fc = f(c)
         output.append({"iteracija": i, "c": c, "f(c)": fc})
         if abs(fc) < tol or (b - a)*0.5 < tol:
-            return c, i, pd.DataFrame(output)
+            c = c, i = i
         elif fa * fc < 0:
             b, fb = c, fc
         else:
